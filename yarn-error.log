@@ -1,0 +1,27 @@
+Arguments: 
+  /home/khushbu/.nvm/versions/node/v16.14.2/bin/node /home/khushbu/.node/corepack/yarn/1.22.15/bin/yarn.js add --dev hardhat
+
+PATH: 
+  /home/khushbu/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/home/khushbu/.nvm/versions/node/v16.14.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Users/K S/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/K S/Desktop/Microsoft VS Code/bin:/mnt/c/Users/K S/AppData/Roaming/npm:/snap/bin:/home/khushbu/.foundry/bin:/home/khushbu/.foundry/bin:/home/khushbu/.foundry/bin:/home/khushbu/.foundry/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.14.2
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
