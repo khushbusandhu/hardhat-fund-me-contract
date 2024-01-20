@@ -1,7 +1,7 @@
 require("@nomicfoundation/hardhat-toolbox");
 require("dotenv").config();
 require("@nomicfoundation/hardhat-verify");
-require("./tasks/block-number");
+
 require("hardhat-gas-reporter");
 require("solidity-coverage");
 require("hardhat-deploy");
@@ -23,7 +23,9 @@ module.exports = {
       chainId: 31337,
     },
   },
-  solidity: "0.8.23",
+  solidity: {
+    compilers: [{ version: "0.8.23" }, { version: "0.6.6" }],
+  },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
   },
